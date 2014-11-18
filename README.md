@@ -17,5 +17,10 @@ Docker containers to run a selenium grid cluster on your laptop
 	          stopNode    remove a node from the grid
 
 
-...or [grab the vagrant version](https://github.com/benschw/vagrant-selenium-grid) 
-and get going with a simple `vagrant up`
+## Vagrant useage
+
+```
+vagrant up
+vagrant ssh
+sudo /vagrant/grid.sh start
+```
